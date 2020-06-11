@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints a string using put
- * Return:  0
+ * main - Entry point
+ *
+ * Return:  Always 0 (Sucess)
  */
 
 int main(void)
