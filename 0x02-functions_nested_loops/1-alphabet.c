@@ -3,16 +3,16 @@
 /**
 *print_alphabet - prints alphabet in lowercase
 *
-*Return: 0
+*Return: nothing
 */
-
 void print_alphabet(void)
 {
-	char x;
+	char x = 'a';
 
-	for (x = 'a' ; x <= 'z' ; ++x)
+	while (x <= 'z')
 	{
 		_putchar(x);
+		++x;
 	}
 		_putchar('\n');
 }
