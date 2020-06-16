@@ -13,8 +13,8 @@ void jack_bauer(void)
 		_putchar('0' + (min / 60) / 10);
 		_putchar('0' + (min / 60) % 10);
 		_putchar(':');
-		_putchar('0' + (min / 60) / 10);
-		_putchar('0' + (min / 60) % 10);
+		_putchar('0' + (min %  60) / 10);
+		_putchar('0' + (min %  60) % 10);
 		_putchar('\n');
 	}
 }
