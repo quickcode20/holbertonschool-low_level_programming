@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
-*_strpbrk: searches a string of any of a set of bytes
+*_strpbrk - searches a string of any of a set of bytes
 *@s: given string to search
 *@accept: source string
-*@NULL: if no such a byte is found
-*Return: pointer to the byte in s
+*Return: pointer to the byte in s that matches one of the bytes in
+*accept or Null if no such file is found
 */
 char *_strpbrk(char *s, char *accept)
 {
